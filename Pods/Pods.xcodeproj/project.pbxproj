@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E25180CA0AD2D6FF9893D4BD5FBDDF /* HSAttachmentPickerPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD938BFB7EDBF78ADBD852A7C4BDEAA3 /* HSAttachmentPickerPhotoPreviewController.m */; };
+		3AE3A7CAE6976A110249E3FD7BFEC436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		3B9167788B86C27D1EFD60B39AE6614C /* HSAttachmentPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 964D4A681C997F57D241B9CF904B916E /* HSAttachmentPicker.m */; };
+		5A6AAB02645405D7E32DB4CF6E93AB27 /* Pods-BeaconTabsTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB789CB1BED4E5D07F61F876C2232E3B /* Pods-BeaconTabsTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D85A9CC6916D81AE14E7D9AFFF18EED /* HSAttachmentPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C54F960F27822643D312E19B4E187E79 /* HSAttachmentPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97C52D280E1DD3C49B398132AFB9E3D2 /* Pods-BeaconTabsTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5C722DBC78C71466EF8380E493D67 /* Pods-BeaconTabsTest-dummy.m */; };
+		97E7BCC9C586566CEB943106DFC5E085 /* HSAttachmentPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA634DB1B52FF5D313EC85ABC0FF8C /* HSAttachmentPicker-dummy.m */; };
+		C92F44EBE5DB03A3077165726ABF3198 /* HSAttachmentPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7340DE2602A5AF015829487E58477A55 /* HSAttachmentPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9E6D5883CD5C9A732727D185B10CF94 /* HSAttachmentPickerPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D230B50B9210BB77804143D6297EC5 /* HSAttachmentPickerPhotoPreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE96A64CDE21A86013E3BC054250768B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F123E7F5C17A5A51A4D2938A49A93AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4CA8320D309806DFCEFF36A6246129;
+			remoteInfo = HSAttachmentPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F6E163D5C51911AC3792FE9F0D3C807 /* Pods-BeaconTabsTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeaconTabsTest.modulemap"; sourceTree = "<group>"; };
+		21EA634DB1B52FF5D313EC85ABC0FF8C /* HSAttachmentPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSAttachmentPicker-dummy.m"; sourceTree = "<group>"; };
+		4B7E9D49A115E8B4EB790E250A409B41 /* Pods-BeaconTabsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconTabsTest.release.xcconfig"; sourceTree = "<group>"; };
+		4D84018060C58F16A8DDB1714993578A /* HSBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSBeacon.h; path = Beacon.framework/Headers/HSBeacon.h; sourceTree = "<group>"; };
+		50990B591965E904384D5CB029E720F8 /* Pods_BeaconTabsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeaconTabsTest.framework; path = "Pods-BeaconTabsTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AC63FF7118338B23D02678741851BE /* HSAttachmentPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSAttachmentPicker.xcconfig; sourceTree = "<group>"; };
+		5E802DE6CCC05C54BC3675957AA1FA03 /* HSAttachmentPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HSAttachmentPicker.framework; path = HSAttachmentPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6007C5874B0B0D5A8E07ED893EE93A34 /* HSBeaconContactForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSBeaconContactForm.h; path = Beacon.framework/Headers/HSBeaconContactForm.h; sourceTree = "<group>"; };
+		705A016692B008C335A9630CC71DD4D7 /* Pods-BeaconTabsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconTabsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		7340DE2602A5AF015829487E58477A55 /* HSAttachmentPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSAttachmentPicker.h; path = HSAttachmentPicker/HSAttachmentPicker.h; sourceTree = "<group>"; };
+		794128BACBB7098A8189901BEF743510 /* Pods-BeaconTabsTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeaconTabsTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BC034F567C03AE173D69AFC4B05609E /* Pods-BeaconTabsTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeaconTabsTest-frameworks.sh"; sourceTree = "<group>"; };
+		89E7D0FC5CD01350D623A5904C004FCE /* Beacon.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Beacon.bundle; path = Beacon.framework/Beacon.bundle; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		964D4A681C997F57D241B9CF904B916E /* HSAttachmentPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSAttachmentPicker.m; path = HSAttachmentPicker/HSAttachmentPicker.m; sourceTree = "<group>"; };
+		A1D5C722DBC78C71466EF8380E493D67 /* Pods-BeaconTabsTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeaconTabsTest-dummy.m"; sourceTree = "<group>"; };
+		AB789CB1BED4E5D07F61F876C2232E3B /* Pods-BeaconTabsTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeaconTabsTest-umbrella.h"; sourceTree = "<group>"; };
+		ADB6367F6ECEEC3D3856910A735FA51A /* HSBeaconUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSBeaconUser.h; path = Beacon.framework/Headers/HSBeaconUser.h; sourceTree = "<group>"; };
+		B8A3671EBA07242D854352AFC4185CC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE9F502B099A0BDDF336A24D3963544 /* HSBeaconSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSBeaconSettings.h; path = Beacon.framework/Headers/HSBeaconSettings.h; sourceTree = "<group>"; };
+		C1D98EC79D070CF457D26E0C09FD0CE8 /* Pods-BeaconTabsTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeaconTabsTest-resources.sh"; sourceTree = "<group>"; };
+		C54F960F27822643D312E19B4E187E79 /* HSAttachmentPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSAttachmentPicker-umbrella.h"; sourceTree = "<group>"; };
+		C58D303F855F8FED5A48E85777659C30 /* Pods-BeaconTabsTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeaconTabsTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD938BFB7EDBF78ADBD852A7C4BDEAA3 /* HSAttachmentPickerPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSAttachmentPickerPhotoPreviewController.m; path = HSAttachmentPicker/HSAttachmentPickerPhotoPreviewController.m; sourceTree = "<group>"; };
+		D101DE4EDEFCCFCEFCB4A18B37D91BBE /* HSAttachmentPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSAttachmentPicker-prefix.pch"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7DF38A3CCFF2EDD0CF1B9E1535185F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC61B757E26E7CD4AB79659B6595D82 /* Beacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Beacon.h; path = Beacon.framework/Headers/Beacon.h; sourceTree = "<group>"; };
+		F1D230B50B9210BB77804143D6297EC5 /* HSAttachmentPickerPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSAttachmentPickerPhotoPreviewController.h; path = HSAttachmentPicker/HSAttachmentPickerPhotoPreviewController.h; sourceTree = "<group>"; };
+		F4DA7FA92517A25CDCA979EAFAECB7A9 /* Beacon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Beacon.framework; sourceTree = "<group>"; };
+		F5A3C4C3E878309C0890CD61FBFAE5F4 /* HSBeaconMessagingSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSBeaconMessagingSettings.h; path = Beacon.framework/Headers/HSBeaconMessagingSettings.h; sourceTree = "<group>"; };
+		F8A8B296D3C818F45656A81DD758E93D /* HSAttachmentPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HSAttachmentPicker.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DF4EB0FEADA24762A0A09AF424259F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE3A7CAE6976A110249E3FD7BFEC436 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310B428070B45462F2A875A99A1DC9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE96A64CDE21A86013E3BC054250768B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02273AB728D9400A27CA0A91994DDC0B /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				EFC61B757E26E7CD4AB79659B6595D82 /* Beacon.h */,
+				4D84018060C58F16A8DDB1714993578A /* HSBeacon.h */,
+				6007C5874B0B0D5A8E07ED893EE93A34 /* HSBeaconContactForm.h */,
+				F5A3C4C3E878309C0890CD61FBFAE5F4 /* HSBeaconMessagingSettings.h */,
+				BCE9F502B099A0BDDF336A24D3963544 /* HSBeaconSettings.h */,
+				ADB6367F6ECEEC3D3856910A735FA51A /* HSBeaconUser.h */,
+				7073C3F2525AD1C18AF2B1CD214CEC31 /* Frameworks */,
+				F0625C541B3DDE7B0666204ACED3598A /* Resources */,
+			);
+			name = Beacon;
+			path = Beacon;
+			sourceTree = "<group>";
+		};
+		15AFBC1D5B9E157CE0CDDB5BFD75A908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E802DE6CCC05C54BC3675957AA1FA03 /* HSAttachmentPicker.framework */,
+				50990B591965E904384D5CB029E720F8 /* Pods_BeaconTabsTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3624F1A5B901A764523E9BB430DE12D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D45B955A6D6F46459439745896A696F /* Pods-BeaconTabsTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		427D8A82022C0CDFCF2FB52EAFE40B84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02273AB728D9400A27CA0A91994DDC0B /* Beacon */,
+				D6F6EA6726487A5A4C6820C555D87E25 /* HSAttachmentPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D45B955A6D6F46459439745896A696F /* Pods-BeaconTabsTest */ = {
+			isa = PBXGroup;
+			children = (
+				D7DF38A3CCFF2EDD0CF1B9E1535185F6 /* Info.plist */,
+				0F6E163D5C51911AC3792FE9F0D3C807 /* Pods-BeaconTabsTest.modulemap */,
+				794128BACBB7098A8189901BEF743510 /* Pods-BeaconTabsTest-acknowledgements.markdown */,
+				C58D303F855F8FED5A48E85777659C30 /* Pods-BeaconTabsTest-acknowledgements.plist */,
+				A1D5C722DBC78C71466EF8380E493D67 /* Pods-BeaconTabsTest-dummy.m */,
+				7BC034F567C03AE173D69AFC4B05609E /* Pods-BeaconTabsTest-frameworks.sh */,
+				C1D98EC79D070CF457D26E0C09FD0CE8 /* Pods-BeaconTabsTest-resources.sh */,
+				AB789CB1BED4E5D07F61F876C2232E3B /* Pods-BeaconTabsTest-umbrella.h */,
+				705A016692B008C335A9630CC71DD4D7 /* Pods-BeaconTabsTest.debug.xcconfig */,
+				4B7E9D49A115E8B4EB790E250A409B41 /* Pods-BeaconTabsTest.release.xcconfig */,
+			);
+			name = "Pods-BeaconTabsTest";
+			path = "Target Support Files/Pods-BeaconTabsTest";
+			sourceTree = "<group>";
+		};
+		7073C3F2525AD1C18AF2B1CD214CEC31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4DA7FA92517A25CDCA979EAFAECB7A9 /* Beacon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				427D8A82022C0CDFCF2FB52EAFE40B84 /* Pods */,
+				15AFBC1D5B9E157CE0CDDB5BFD75A908 /* Products */,
+				3624F1A5B901A764523E9BB430DE12D4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2365275271E7425C50113E89491E399 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A8B296D3C818F45656A81DD758E93D /* HSAttachmentPicker.modulemap */,
+				55AC63FF7118338B23D02678741851BE /* HSAttachmentPicker.xcconfig */,
+				21EA634DB1B52FF5D313EC85ABC0FF8C /* HSAttachmentPicker-dummy.m */,
+				D101DE4EDEFCCFCEFCB4A18B37D91BBE /* HSAttachmentPicker-prefix.pch */,
+				C54F960F27822643D312E19B4E187E79 /* HSAttachmentPicker-umbrella.h */,
+				B8A3671EBA07242D854352AFC4185CC6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HSAttachmentPicker";
+			sourceTree = "<group>";
+		};
+		D6F6EA6726487A5A4C6820C555D87E25 /* HSAttachmentPicker */ = {
+			isa = PBXGroup;
+			children = (
+				7340DE2602A5AF015829487E58477A55 /* HSAttachmentPicker.h */,
+				964D4A681C997F57D241B9CF904B916E /* HSAttachmentPicker.m */,
+				F1D230B50B9210BB77804143D6297EC5 /* HSAttachmentPickerPhotoPreviewController.h */,
+				CD938BFB7EDBF78ADBD852A7C4BDEAA3 /* HSAttachmentPickerPhotoPreviewController.m */,
+				D2365275271E7425C50113E89491E399 /* Support Files */,
+			);
+			name = HSAttachmentPicker;
+			path = HSAttachmentPicker;
+			sourceTree = "<group>";
+		};
+		F0625C541B3DDE7B0666204ACED3598A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89E7D0FC5CD01350D623A5904C004FCE /* Beacon.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04093069F2451E167DAADBAC92A9DDD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6AAB02645405D7E32DB4CF6E93AB27 /* Pods-BeaconTabsTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2597CAFA45330E0358327516876A0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D85A9CC6916D81AE14E7D9AFFF18EED /* HSAttachmentPicker-umbrella.h in Headers */,
+				C92F44EBE5DB03A3077165726ABF3198 /* HSAttachmentPicker.h in Headers */,
+				F9E6D5883CD5C9A732727D185B10CF94 /* HSAttachmentPickerPhotoPreviewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AC4CA8320D309806DFCEFF36A6246129 /* HSAttachmentPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4A7AD5F477EFD53F2AA7C9C23B3A73 /* Build configuration list for PBXNativeTarget "HSAttachmentPicker" */;
+			buildPhases = (
+				EB2597CAFA45330E0358327516876A0A /* Headers */,
+				1AF5B6C3407F55C5477D0DAABB51FE9E /* Sources */,
+				310B428070B45462F2A875A99A1DC9F9 /* Frameworks */,
+				4D37CB5CBA4592F6A004E72D1ACFC9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSAttachmentPicker;
+			productName = HSAttachmentPicker;
+			productReference = 5E802DE6CCC05C54BC3675957AA1FA03 /* HSAttachmentPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1BB27A070924652012336A4AEB6C70F /* Pods-BeaconTabsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654F1DCF1295441AF5BAD7E374CDE347 /* Build configuration list for PBXNativeTarget "Pods-BeaconTabsTest" */;
+			buildPhases = (
+				04093069F2451E167DAADBAC92A9DDD0 /* Headers */,
+				7F79D60C85C7149EEB8DA248DBDFEB4C /* Sources */,
+				1DF4EB0FEADA24762A0A09AF424259F2 /* Frameworks */,
+				FFC5FEAD787797CE2809AF759DB61B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B437EB3B4140618D1A9DE785C704B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-BeaconTabsTest";
+			productName = "Pods-BeaconTabsTest";
+			productReference = 50990B591965E904384D5CB029E720F8 /* Pods_BeaconTabsTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 15AFBC1D5B9E157CE0CDDB5BFD75A908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4CA8320D309806DFCEFF36A6246129 /* HSAttachmentPicker */,
+				F1BB27A070924652012336A4AEB6C70F /* Pods-BeaconTabsTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D37CB5CBA4592F6A004E72D1ACFC9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC5FEAD787797CE2809AF759DB61B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF5B6C3407F55C5477D0DAABB51FE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E7BCC9C586566CEB943106DFC5E085 /* HSAttachmentPicker-dummy.m in Sources */,
+				3B9167788B86C27D1EFD60B39AE6614C /* HSAttachmentPicker.m in Sources */,
+				30E25180CA0AD2D6FF9893D4BD5FBDDF /* HSAttachmentPickerPhotoPreviewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F79D60C85C7149EEB8DA248DBDFEB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C52D280E1DD3C49B398132AFB9E3D2 /* Pods-BeaconTabsTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B437EB3B4140618D1A9DE785C704B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HSAttachmentPicker;
+			target = AC4CA8320D309806DFCEFF36A6246129 /* HSAttachmentPicker */;
+			targetProxy = 9F123E7F5C17A5A51A4D2938A49A93AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D8C93F704DDCD50AAD213BB1F43BB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705A016692B008C335A9630CC71DD4D7 /* Pods-BeaconTabsTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeaconTabsTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeaconTabsTest/Pods-BeaconTabsTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		88DA84792318ACAC786585493447430B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AC63FF7118338B23D02678741851BE /* HSAttachmentPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HSAttachmentPicker/HSAttachmentPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSAttachmentPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HSAttachmentPicker/HSAttachmentPicker.modulemap";
+				PRODUCT_MODULE_NAME = HSAttachmentPicker;
+				PRODUCT_NAME = HSAttachmentPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E357C9FB6F5D5ED09A7EC6653CB2C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7E9D49A115E8B4EB790E250A409B41 /* Pods-BeaconTabsTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeaconTabsTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeaconTabsTest/Pods-BeaconTabsTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2FB54543179E615663A62602D0D1F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AC63FF7118338B23D02678741851BE /* HSAttachmentPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HSAttachmentPicker/HSAttachmentPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSAttachmentPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HSAttachmentPicker/HSAttachmentPicker.modulemap";
+				PRODUCT_MODULE_NAME = HSAttachmentPicker;
+				PRODUCT_NAME = HSAttachmentPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A4A7AD5F477EFD53F2AA7C9C23B3A73 /* Build configuration list for PBXNativeTarget "HSAttachmentPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FB54543179E615663A62602D0D1F39 /* Debug */,
+				88DA84792318ACAC786585493447430B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654F1DCF1295441AF5BAD7E374CDE347 /* Build configuration list for PBXNativeTarget "Pods-BeaconTabsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8C93F704DDCD50AAD213BB1F43BB38 /* Debug */,
+				8E357C9FB6F5D5ED09A7EC6653CB2C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

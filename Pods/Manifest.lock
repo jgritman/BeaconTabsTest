@@ -1,0 +1,20 @@
+PODS:
+  - Beacon (0.69):
+    - HSAttachmentPicker (~> 1.0)
+  - HSAttachmentPicker (1.0.8)
+
+DEPENDENCIES:
+  - Beacon
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Beacon
+    - HSAttachmentPicker
+
+SPEC CHECKSUMS:
+  Beacon: 952b5d353a26495fdd74e9980bf52690b790b01f
+  HSAttachmentPicker: ed3d5a670cdd805ba8268f0d00a4d102d65cbd1d
+
+PODFILE CHECKSUM: 7d1736f360a55cc05f4b299237e1aeb53b9d8693
+
+COCOAPODS: 1.5.3
